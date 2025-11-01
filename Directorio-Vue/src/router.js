@@ -7,6 +7,7 @@ import OficinaDetalle from "./components/OficinaDetalle.vue";
 import Desarrollos from "./components/desarrollos.vue";
 import DesarrolloDetalle from "./components/DesarrolloDetalle.vue";
 import Extensiones from "./components/extensiones.vue";
+import Formularios from "./components/formularios.vue";
 
 const routes = [
   {
@@ -51,6 +52,11 @@ const routes = [
         name: "extensiones",
         component: Extensiones,
       },
+      {
+        path: "formularios",
+        name: "formularios",
+        component: Formularios
+      }
     ],
   },
 ];

@@ -22,10 +22,10 @@
           <span class="nav-icon">📞</span>
           <span>Extensiones</span>
         </router-link>
-        <a href="#" class="nav-link">
+        <router-link to="/home/formularios" class="nav-link">
           <span class="nav-icon">📋</span>
           <span>Formularios</span>
-        </a>
+        </router-link>
       </nav>
 
       <div class="layout-header-actions">

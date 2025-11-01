@@ -80,7 +80,7 @@
               <th>Extensión</th>
             </tr>
           </thead>
-          <tbody>
+          <tbody><!-- me quede aqui-->
             <tr
               v-for="(extension, index) in extensionesFiltradas"
               :key="index"
