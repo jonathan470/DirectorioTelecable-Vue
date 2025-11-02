@@ -53,6 +53,15 @@
           </tr>
         </thead>
         <tbody>
+          <tr v-for="(formularios, index) in formulariosFiltrados" :key="index" class="table-row">
+            <td class="formulario-nombre">
+              <div class="formulario-cell">
+                <span class="formulario avatar">📋</span>
+                <span>{{ formularios.nombre_formulario }}</span>
+              </div>
+            </td>
+
+          </tr>
 
         </tbody>
 

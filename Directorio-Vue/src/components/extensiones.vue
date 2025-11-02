@@ -80,7 +80,7 @@
               <th>Extensión</th>
             </tr>
           </thead>
-          <tbody><!-- me quede aqui-->
+          <tbody>
             <tr
               v-for="(extension, index) in extensionesFiltradas"
               :key="index"
@@ -91,7 +91,7 @@
                   <span class="persona-avatar">👤</span>
                   <span>{{ extension.nombre_personal }}</span>
                 </div>
-              </td>
+              </td><!-- me quede aqui-->
               <td class="cargo">
                 <span
                   class="badge-cargo"
