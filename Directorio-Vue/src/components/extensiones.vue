@@ -2,7 +2,7 @@
   <div class="layout-extensiones">
     <div class="extensiones-header">
       <div class="header-content">
-        <h1 class="page-title">📞 Directorio de Extensiones (PBX)</h1>
+        <h1 class="page-title">Directorio de Extensiones (PBX)</h1>
         <p class="page-subtitle">
           Consulta las extensiones telefónicas del personal
         </p>

@@ -1,12 +1,8 @@
-<template></template>
-
-<script setup></script>
-
 <template>
   <div class="layout-formularios">
     <div class="formularios-header">
       <div class="header-content">
-        <h1 class="page-title">📋 Formularios de ventas</h1>
+        <h1 class="page-title">Formularios de ventas</h1>
         <p class="page-subtitle">Consulta los formularios de ventas</p>
       </div>
     </div>
@@ -29,7 +25,7 @@
       <div class="stat-card">
         <div class="stat-icon">📊</div>
         <div class="stat-info">
-          <span class="stat-label">Total de formulario</span>
+          <span class="stat-label">Total de formularios </span>
           <span class="stat-value">{{ formulariosFiltrados.length }}</span>
         </div>
       </div>
@@ -53,31 +49,30 @@
           </tr>
         </thead>
         <tbody>
-          <tr v-for="(formularios, index) in formulariosFiltrados" :key="index" class="table-row">
+          <tr
+            v-for="(formularios, index) in formulariosFiltrados"
+            :key="index"
+            class="table-row"
+          >
             <td class="formulario-nombre">
               <div class="formulario-cell">
                 <span class="formulario avatar">📋</span>
                 <span>{{ formularios.nombre_formulario }}</span>
               </div>
             </td>
-
+            <td>
+              <a
+                class="abrir-button"
+                :href=" formularios.enlace_formulario"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Abrir Formulario</a
+              >
+            </td>
           </tr>
-
         </tbody>
-
-        
       </table>
     </div>
-
-
-
-
-
-
-
-
-
-    
   </div>
 </template>
 
@@ -172,3 +167,165 @@ const formulariosFiltrados = computed(() => {
   });
 });
 </script>
+
+<style scoped>
+.layout-formularios {
+  padding: 30px 40px;
+  background: linear-gradient(to bottom, #f8f9fa 0%, #e9ecef 100%);
+  min-height: calc(100vh - 90px);
+}
+
+.formularios-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.header-content {
+  flex: 1;
+}
+
+.page-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1e3c72;
+  margin: 0 0 8px 0;
+}
+
+.page-subtitle {
+  font-size: 16px;
+  color: #64748b;
+  margin: 0;
+}
+.filter-container {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.filter-group {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+.filter-box {
+  flex: 1;
+  min-width: 300px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background: white;
+  border: 2px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 0 16px;
+  transition: all 0.3s ease;
+  height: 50px;
+}
+
+.filter-box:focus-within {
+  border-color: #2a5298;
+  box-shadow: 0 0 0 4px rgba(42, 82, 152, 0.08);
+}
+
+.filter-icon {
+  font-size: 20px;
+  color: #94a3b8;
+  margin-right: 12px;
+}
+
+.filter-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 14px 0;
+  font-size: 15px;
+  color: #1e293b;
+  background: transparent;
+}
+
+.filter-input::placeholder {
+  color: #94a3b8;
+}
+.stats-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.stat-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 24px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+}
+
+.stat-icon {
+  font-size: 40px;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, rgba(42, 82, 152, 0.1) 0%, rgba(30, 60, 114, 0.1) 100%);
+  border-radius: 12px;
+}
+
+.stat-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.stat-label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #64748b;
+}
+
+.stat-value {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1e3c72;
+}
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 30px;
+  border-bottom: 2px solid #e2e8f0;
+}
+
+.table-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1e3c72;
+  margin: 0;
+}
+
+.table-count {
+  font-size: 14px;
+  font-weight: 600;
+  color: #64748b;
+  background: #f1f5f9;
+  padding: 6px 14px;
+  border-radius: 20px;
+}
+
+
+
+</style>
