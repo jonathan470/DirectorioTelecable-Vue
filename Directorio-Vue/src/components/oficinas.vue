@@ -553,7 +553,7 @@ const oficinasData = [
     direccion: "CL 12 5 49 - Centro",
     ciudad: "Andalucia",
     departamento: "Valle del cauca",
-    administrador: "Maria José Arias Hernández Acevedo",
+    administrador: "Maria José Arias Hernández",
     pbx: "1215",
     telefono: "3154106483",
     barrios: [

@@ -56,7 +56,7 @@
           >
             <td class="formulario-nombre">
               <div class="formulario-cell">
-                <span class="formulario avatar">📋</span>
+                <span class="formulario-avatar">📋</span>
                 <span>{{ formularios.nombre_formulario }}</span>
               </div>
             </td>
@@ -325,7 +325,115 @@ const formulariosFiltrados = computed(() => {
   padding: 6px 14px;
   border-radius: 20px;
 }
+.table-container {
+  overflow-x: auto;
+  padding: 0;
+}
 
+.formulario-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.formulario-table thead {
+  background: #f8fafc;
+}
+
+.formulario-table th {
+  padding: 16px 20px;
+  text-align: left;
+  font-size: 13px;
+  font-weight: 700;
+  color: #64748b;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 2px solid #e2e8f0;
+}
+
+.table-row {
+  transition: all 0.2s ease;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.table-row:hover {
+  background: #f8fafc;
+}
+
+.formulario-table td {
+  padding: 18px 20px;
+  font-size: 15px;
+  color: #334155;
+}
+
+.formulario-cell {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.formulario-avatar {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #2a5298 0%, #1e3c72 100%);
+  border-radius: 50%;
+  font-size: 20px;
+  filter: grayscale(100%) brightness(2);
+}
+
+.formulario-nombre {
+  font-weight: 600;
+  color: #1e3c72;
+}
+
+.abrir-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #2a5298 0%, #1e3c72 100%);
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(42, 82, 152, 0.3);
+}
+
+.abrir-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(42, 82, 152, 0.4);
+}
+
+@media (max-width: 768px) {
+  .layout-formularios {
+    padding: 20px;
+  }
+
+  .page-title {
+    font-size: 24px;
+  }
+
+  .filter-container {
+    flex-direction: column;
+  }
+
+  .filter-box {
+    min-width: 100%;
+  }
+
+  .table-container {
+    overflow-x: scroll;
+  }
+
+  .formulario-table {
+    min-width: 600px;
+  }
+}
 
 
 </style>
