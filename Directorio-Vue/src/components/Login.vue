@@ -86,6 +86,14 @@ import { useRouter } from "vue-router";
 
 const validCredentials = [
   { email: "soporte.riocauca@cablecauca.com", password: "admin123" },
+  { email: "sistemas1@cablecauca.com", password: "sistemas1*" },
+  { email: "sistemas2@cablecauca.com", password: "sistemas2*" },
+  { email: "sistemas5@cablecauca.com", password: "sistemas5*" },
+  { email: "sistemas.general@cablecauca.com", password: "sistemasgeneral123" },
+  { email: "asistente.subgerencia@cablecauca.com", password: "subgerencia123" },
+  { email: "sistemas@cablecauca.com", password: "sistemas123*" },
+  { email: "retencioncomuneros@cablecauca.com", password: "retencioncomuneros123*" },
+  { email: "subgerencia@cablecauca.com", password: "gerenciageneral123*" },
 ];
 
 const form = reactive({
