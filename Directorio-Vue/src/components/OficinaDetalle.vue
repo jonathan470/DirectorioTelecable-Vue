@@ -165,7 +165,7 @@
         </div>
         <div class="card-body">
           <div class="contact-grid">
-            <a :href="'tel:' + oficina.telefono" class="contact-item">
+            <a :href="'https://web.whatsapp.com/send?phone=57' + oficina.telefono" class="contact-item" target="_blank">
               <span class="contact-icon">📱</span>
               <div class="contact-info">
                 <span class="contact-label">Teléfono</span>
