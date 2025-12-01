@@ -26,6 +26,11 @@
           <span class="nav-icon">📋</span>
           <span>Formularios</span>
         </router-link>
+
+        <router-link to="/home/infogeneral" class="nav-link">
+          <span class="nav-icon">🏦</span>
+          <span>Información General</span>
+        </router-link>
       </nav>
 
       <div class="layout-header-actions">

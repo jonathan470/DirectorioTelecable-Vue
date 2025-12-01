@@ -8,6 +8,7 @@ import Desarrollos from "./components/desarrollos.vue";
 import DesarrolloDetalle from "./components/DesarrolloDetalle.vue";
 import Extensiones from "./components/extensiones.vue";
 import Formularios from "./components/formularios.vue";
+import Infogeneral from "./components/infogeneral.vue";
 
 const routes = [
   {
@@ -56,6 +57,11 @@ const routes = [
         path: "formularios",
         name: "formularios",
         component: Formularios
+      },
+      {
+        path: "infogeneral",
+        name: "infogeneral",
+        component: Infogeneral
       }
     ],
   },
