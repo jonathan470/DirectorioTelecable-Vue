@@ -124,9 +124,9 @@ const oficinasData = [
     telefono: "3242979487",
     barrios: ["Mariano Ramos", "Republica de Israel", "Brisas del Limonar"],
     planes: [
-      { nombre: "100 megas", precio: "$50.000" },
-      { nombre: "300 megas", precio: "$70.000" },
-      { nombre: "600 megas", precio: "$95.000" },
+      { nombre: "200 megas", precio: "$50.000" },
+      { nombre: "350 megas", precio: "$70.000" },
+      { nombre: "600 megas", precio: "$80.000" },
     ],
     puntosRecaudo: [{ nombre: "NO", direccion: " " }],
     personalAdicional: [
@@ -156,9 +156,9 @@ const oficinasData = [
       "Las veraneras",
     ],
     planes: [
-      { nombre: "100 megas", precio: "$50.000" },
-      { nombre: "300 megas", precio: "$70.000" },
-      { nombre: "600 megas", precio: "$95.000" },
+      { nombre: "200 megas", precio: "$50.000" },
+      { nombre: "350 megas", precio: "$70.000" },
+      { nombre: "600 megas", precio: "$80.000" },
     ],
     puntosRecaudo: [{ nombre: "NO", direccion: " " }],
     personalAdicional: [
@@ -194,9 +194,9 @@ const oficinasData = [
       "San pedro",
     ],
     planes: [
-      { nombre: "100 megas", precio: "$50.000" },
-      { nombre: "300 megas", precio: "$70.000" },
-      { nombre: "600 megas", precio: "$95.000" },
+      { nombre: "500 megas", precio: "$50.000" },
+      { nombre: "350 megas", precio: "$70.000" },
+      { nombre: "600 megas", precio: "$80.000" },
     ],
     puntosRecaudo: [
       { nombre: "Drogueria VJ", direccion: "- Dg 30 31 23 San Pedro Claver" },
@@ -220,9 +220,9 @@ const oficinasData = [
     telefono: "3151907600",
     barrios: ["Robles", "Poblado I", "Poblado II"],
     planes: [
-      { nombre: "100 megas", precio: "$50.000" },
-      { nombre: "300 megas", precio: "$70.000" },
-      { nombre: "600 megas", precio: "$95.000" },
+      { nombre: "200 megas", precio: "$50.000" },
+      { nombre: "350 megas", precio: "$70.000" },
+      { nombre: "600 megas", precio: "$80.000" },
     ],
     puntosRecaudo: [{ nombre: "Punto de recaudo Zona Virtual", direccion: "" }],
     personalAdicional: [
@@ -251,9 +251,9 @@ const oficinasData = [
       "Centro Comercial Rio Cauca",
     ],
     planes: [
-      { nombre: "100 megas", precio: "$50.000" },
-      { nombre: "300 megas", precio: "$70.000" },
-      { nombre: "600 megas", precio: "$95.000" },
+      { nombre: "200 megas", precio: "$50.000" },
+      { nombre: "350 megas", precio: "$70.000" },
+      { nombre: "600 megas", precio: "$80.000" },
     ],
     puntosRecaudo: [
       { nombre: "Ferreteria Multicenter", direccion: "- CL 112 26B1 05" },
@@ -286,9 +286,9 @@ const oficinasData = [
     telefono: "3155599161",
     barrios: ["Cordoba Reservado", "Llano Verde", "Morichal de comfandi"],
     planes: [
-      { nombre: "100 megas", precio: "$50.000" },
-      { nombre: "300 megas", precio: "$70.000" },
-      { nombre: "600 megas", precio: "$95.000" },
+      { nombre: "200 megas", precio: "$50.000" },
+      { nombre: "350 megas", precio: "$70.000" },
+      { nombre: "600 megas", precio: "$80.000" },
     ],
     puntosRecaudo: [{ nombre: "NO", direccion: "" }],
 
@@ -319,9 +319,9 @@ const oficinasData = [
     ],
     planes: [
       { nombre: "50 megas", precio: "$40.000 Migracion de TV" },
-      { nombre: "100 megas", precio: "$50.000" },
-      { nombre: "300 megas", precio: "$70.000" },
-      { nombre: "600 megas", precio: "$95.000" },
+      { nombre: "200 megas", precio: "$50.000" },
+      { nombre: "350 megas", precio: "$70.000" },
+      { nombre: "600 megas", precio: "$80.000" },
     ],
     puntosRecaudo: [
       { nombre: "Drogueria Nuevo Latir", direccion: "- CR 28D 80 16" },
@@ -359,9 +359,9 @@ const oficinasData = [
     telefono: "3122421002",
     barrios: ["Marroquin 1", "Marroquin 2", "Alirio Mora", "Los Naranjos"],
     planes: [
-      { nombre: "100 megas", precio: "$50.000" },
-      { nombre: "300 megas", precio: "$70.000" },
-      { nombre: "600 megas", precio: "$95.000" },
+      { nombre: "200 megas", precio: "$50.000" },
+      { nombre: "350 megas", precio: "$70.000" },
+      { nombre: "600 megas", precio: "$80.000" },
     ],
     puntosRecaudo: [
       { nombre: "Punto de pago Alirio Mora", direccion: "- CL 76 26B1 26" },
@@ -401,9 +401,9 @@ const oficinasData = [
       "Alto Napoles",
     ],
     planes: [
-      { nombre: "100 megas", precio: "$50.000" },
-      { nombre: "300 megas", precio: "$70.000" },
-      { nombre: "600 megas", precio: "$95.000" },
+      { nombre: "200 megas", precio: "$50.000" },
+      { nombre: "350 megas", precio: "$70.000" },
+      { nombre: "600 megas", precio: "$80.000" },
     ],
     puntosRecaudo: [
       { nombre: "Sala de internet Marlin", direccion: "- CL 3C OESTE 90 15" },
@@ -429,9 +429,9 @@ const oficinasData = [
     telefono: "3147773428",
     barrios: ["Montebello"],
     planes: [
-      { nombre: "100 megas", precio: "$50.000" },
-      { nombre: "300 megas", precio: "$70.000" },
-      { nombre: "600 megas", precio: "$95.000" },
+      { nombre: "200 megas", precio: "$50.000" },
+      { nombre: "350 megas", precio: "$70.000" },
+      { nombre: "600 megas", precio: "$80.000" },
     ],
     puntosRecaudo: [
       { nombre: "Tienda Kary", direccion: "- AV 47 OESTE 9A 112" },
@@ -463,23 +463,23 @@ const oficinasData = [
     ],
     puntosRecaudo: [
       {
-        nombre: "Punto de recuado Oliva vivas",
+        nombre: "Punto de recaudo Oliva vivas",
         direccion: "- CL 10 OESTE 50G 27",
       },
       {
-        nombre: "Punto de recuado Maitte Silva",
+        nombre: "Punto de recaudo Maitte Silva",
         direccion: "- CL 10 OESTE 49C 40",
       },
       {
-        nombre: "Punto de recuado Eimmy muñoz",
+        nombre: "Punto de recaudo Eimmy muñoz",
         direccion: "- CL 10 OESTE 50 53",
       },
       {
-        nombre: "Punto de recuado Monica Valencia",
+        nombre: "Punto de recaudo Monica Valencia",
         direccion: "- CL 14 OESTE 48 68",
       },
       {
-        nombre: "Punto de recuado Geidy Martinez",
+        nombre: "Punto de recaudo Geidy Martinez",
         direccion: "- CL 13 531 42",
       },
     ],
